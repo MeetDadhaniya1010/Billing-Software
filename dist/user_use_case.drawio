@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="User Use Case Diagram">
+    <mxGraphModel dx="1241" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor1" value="User" style="shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="actor2" value="Payment Gateway" style="shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" value="Login" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" value="View Products" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" value="Add to Cart" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" value="Make Payment" style="ellipse;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="line1" edge="1" parent="1" source="actor1" target="uc1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line2" edge="1" parent="1" source="actor1" target="uc2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line3" edge="1" parent="1" source="actor1" target="uc3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="line4" edge="1" parent="1" source="actor2" target="uc4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
